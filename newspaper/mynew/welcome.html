@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+    <head>
+      <meta charset="UTF-8">
+      <title>Details </title>
+      <link rel=""
+
+    </head>
+    <body>
+
+<form action="contact.php" method="post" id="conatctform" autocomplete="on" novalidate>
+<fieldset>
+  <legend>Contact us</legend>
+  <label for="fname">First Name :</label><br>
+  <input type="text" id="fname" name="fname"><br>
+  <label for="meg">Message :</label><br>
+  <textarea id="meg" name="meg"></textarea>
+</fieldset>
+<fieldset>
+  <label for="vec">select vechicle</label>
+  <select id="vec" name="vec">
+    <option value="car">Car</option>
+    <option value="van">van</option>
+  </select>
+<input list="states">
+  <datalist id="states" name="state">
+    <option>tamilnadu</option>
+    <option>delhi</option>
+    <option>kerala</option>
+  </datalist>
+</fieldset>
+<button type="submit">submit</button>
+<button type="reset">reset</button>
+<output id="ot">Thank you </output>
+</form>
+    </body>
+
+</html>

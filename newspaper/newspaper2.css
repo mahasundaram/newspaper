@@ -1,0 +1,26 @@
+h1{
+    color:indigo;
+    background-color:aliceblue;
+    font-size: 80px;
+    font-family:'Times New Roman', Times, serif;
+    text-align: center;
+
+}
+h2{
+    text-align: center;
+    color:indigo;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+body{
+    background-color: darkgrey;
+}
+h3{
+    text-align: center;
+
+}
+div{
+    text-align: center;
+}
+p{
+    text-align: center;
+}
